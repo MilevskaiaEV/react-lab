@@ -7,15 +7,14 @@
 Вы можете использовать либо экспорт по умолчанию, либо именованный экспорт для Profile, но убедитесь, что вы используете соответствующий синтаксис импорта как в App.tsx, так и в Gallery.tsx!
 
 */
-
-import Gallery, { Profile } from "./Gallery";
-
-// Move me to Profile.js!
+import Gallery from "./Gallery";
+import Profile from "./Profile";
 
 export default function App() {
   return (
     <div>
-      <Profile />      
-    </div>
+      <Profile />
+      <Gallery />      
+    </div> 
   );
 }
