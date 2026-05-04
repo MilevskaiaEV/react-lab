@@ -5,7 +5,6 @@
   Исправьте ошибку с заданием src в <img>.
 */
 
-
 const baseUrl = '/';
 const person = {
   name: 'Gregorio Y. Zara',
@@ -23,7 +22,7 @@ export default function TodoList() {
       <h1>{person.name}'s Todos</h1>
       <img
         className="avatar"
-        src="{baseUrl}{person.imageId}{person.imageSize}.jpg"
+        src={`${baseUrl}${person.imageId}${person.imageSize}.jpg`}
         alt={person.name}
       />
       <ul>
