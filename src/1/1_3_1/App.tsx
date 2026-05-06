@@ -11,7 +11,7 @@ export default function Bio() {
       </div>
       <p className="summary">
         You can find my thoughts here.
-        <br></br>
+        <br/><br/>
         <b>And <i>pictures</i></b> of scientists!
       </p>
       </>
