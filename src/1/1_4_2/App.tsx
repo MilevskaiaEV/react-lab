@@ -19,7 +19,7 @@ const person = {
         <img
           className="avatar"
           src={person.avatarUrl}
-          alt="Gregorio Y. Zara"
+          alt={person.avatarUrl}
         />
         <ul>
           <li>Improve the videophone</li>
